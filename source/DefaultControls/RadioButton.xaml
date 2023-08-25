@@ -24,7 +24,7 @@
                                             Stroke="{DynamicResource NormalBorderBrush}" Fill="{TemplateBinding Background}"
                                             StrokeThickness="{DynamicResource EllipseBorderThickness}" />
                                     <Viewbox x:Name="CheckIcon" Visibility="Collapsed" >
-                                        <TextBlock Text="h" FontFamily="Marlett" Foreground="{DynamicResource GlyphBrush}"
+                                        <TextBlock Text="h" FontFamily="{DynamicResource SpecialFontFamily}" Foreground="{DynamicResource GlyphBrush}"
                                                     HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                     </Viewbox>
                                 </Grid>

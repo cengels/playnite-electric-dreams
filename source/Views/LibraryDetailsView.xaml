@@ -68,16 +68,17 @@
 
     <Style TargetType="Label" x:Key="HeaderLabel">
         <Setter Property="FontSize" Value="{DynamicResource FontSizeLarger}"/>
-        <Setter Property="FontFamily" Value="Corbel"/>
+        <Setter Property="FontFamily" Value="{DynamicResource HeaderFontFamily}"/>
         <Setter Property="Foreground" Value="{DynamicResource DetailsViewOverviewHeaderLabelBrush}"/>
         <Setter Property="Typography.Capitals" Value="AllSmallCaps"/>
+        <Setter Property="Typography.CapitalSpacing" Value="True"/>
         <Setter Property="Padding" Value="0"/>
         <Setter Property="Opacity" Value="0.52"/>
     </Style>
 
     <Style TargetType="Label" x:Key="ContainerLabel">
         <Setter Property="FontSize" Value="{DynamicResource FontSize}"/>
-        <Setter Property="FontFamily" Value="Corbel"/>
+        <Setter Property="FontFamily" Value="{DynamicResource HeaderFontFamily}"/>
         <Setter Property="Foreground" Value="{DynamicResource DetailsViewContainerLabelBrush}"/>
         <Setter Property="Padding" Value="0"/>
         <Setter Property="Height" Value="20"/>
@@ -92,10 +93,12 @@
 
     <Style TargetType="Label" x:Key="FeedSectionLabel">
         <Setter Property="FontSize" Value="{DynamicResource FontSizeLarger}"/>
-        <Setter Property="FontFamily" Value="Corbel"/>
+        <Setter Property="FontFamily" Value="{DynamicResource HeaderFontFamily}"/>
         <Setter Property="Typography.Capitals" Value="AllSmallCaps"/>
-        <Setter Property="Foreground" Value="#94a1a6"/>
+        <Setter Property="Typography.CapitalSpacing" Value="True"/>
+        <Setter Property="Foreground" Value="{DynamicResource DetailsViewOverviewHeaderLabelBrush}"/>
         <Setter Property="Margin" Value="0,0,0,10" />
+        <Setter Property="Opacity" Value="0.52"/>
     </Style>
 
     <Style TargetType="Border" x:Key="OutlineBorder">

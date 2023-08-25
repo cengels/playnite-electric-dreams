@@ -11,7 +11,7 @@
             <Grid>
                 <DockPanel>
                     <Viewbox Margin="0,0,2,0" DockPanel.Dock="Right">
-                        <TextBlock Text="6" FontFamily="Marlett"
+                        <TextBlock Text="6" FontFamily="{DynamicResource SpecialFontFamily}"
                                    Foreground="{DynamicResource GlyphBrush}"
                                    VerticalAlignment="Center"/>
                     </Viewbox>
@@ -86,7 +86,7 @@
             <Grid>
                 <DockPanel>
                     <Viewbox Margin="0,0,2,0" DockPanel.Dock="Right">
-                        <TextBlock Text="6" FontFamily="Marlett"
+                        <TextBlock Text="6" FontFamily="{DynamicResource SpecialFontFamily}"
                                    Foreground="{DynamicResource GlyphBrush}"
                                    VerticalAlignment="Center"/>
                     </Viewbox>

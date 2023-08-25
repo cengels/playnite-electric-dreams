@@ -69,7 +69,7 @@
                         </Border.Style>
                         <DockPanel Background="{TemplateBinding Background}">
                             <DockPanel Margin="10,8,5,5" DockPanel.Dock="Top">
-                                <Button Content="r" FontFamily="Marlett"
+                                <Button Content="r" FontFamily="{DynamicResource SpecialFontFamily}"
                                         Style="{StaticResource SimpleButton}"
                                         DockPanel.Dock="Right" Margin="0,0,5,0"
                                         Name="PART_ButtonClose"/>

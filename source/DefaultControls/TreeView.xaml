@@ -52,11 +52,11 @@
                                                     <ControlTemplate TargetType="{x:Type ToggleButton}">
                                                         <Grid>
                                                             <Viewbox x:Name="IsExpandedPath" Visibility="Visible" >
-                                                                <TextBlock Text="4" FontFamily="Marlett" Foreground="{DynamicResource TextBrush}"
+                                                                <TextBlock Text="4" FontFamily="{DynamicResource SpecialFontFamily}" Foreground="{DynamicResource TextBrush}"
                                                                            HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                                             </Viewbox>
                                                             <Viewbox x:Name="ExpandPath" Visibility="Collapsed" >
-                                                                <TextBlock Text="6" FontFamily="Marlett" Foreground="{DynamicResource TextBrush}"
+                                                                <TextBlock Text="6" FontFamily="{DynamicResource SpecialFontFamily}" Foreground="{DynamicResource TextBrush}"
                                                                            HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                                             </Viewbox>
                                                         </Grid>

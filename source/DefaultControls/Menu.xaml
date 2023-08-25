@@ -86,7 +86,7 @@
                                   VerticalAlignment="Center" ContentSource="Icon" />
                 <Grid x:Name="GlyphPanel" Grid.Column="0" Visibility="Collapsed"
                       Margin="5,0,-5,0" VerticalAlignment="Center">
-                    <TextBlock FontFamily="Marlett" Text="a" VerticalAlignment="Center" Style="{DynamicResource BaseTextBlockStyle}" />
+                    <TextBlock FontFamily="{DynamicResource SpecialFontFamily}" Text="a" VerticalAlignment="Center" Style="{DynamicResource BaseTextBlockStyle}" />
                 </Grid>
                 <TextBlock Grid.Column="1" Padding="5" VerticalAlignment="Center" Style="{DynamicResource BaseTextBlockStyle}"
                            Foreground="{TemplateBinding Foreground}">
@@ -96,7 +96,7 @@
                            TextAlignment="Left" HorizontalAlignment="Stretch" Margin="20,5,10,5"
                            VerticalAlignment="Center" Background="Transparent" Opacity="0.6"/>
                 <Grid Grid.Column="3" Margin="0,0,5,0">
-                    <TextBlock FontFamily="Marlett" Text="4" VerticalAlignment="Center" Style="{DynamicResource BaseTextBlockStyle}" />
+                    <TextBlock FontFamily="{DynamicResource SpecialFontFamily}" Text="4" VerticalAlignment="Center" Style="{DynamicResource BaseTextBlockStyle}" />
                 </Grid>
                 <Popup IsOpen="{Binding Path=IsSubmenuOpen, RelativeSource={RelativeSource TemplatedParent}}" Placement="Right"
                        Focusable="False" AllowsTransparency="True">
@@ -140,7 +140,7 @@
                                   MaxHeight="16" MaxWidth="16"
                                   VerticalAlignment="Center" ContentSource="Icon" />
                 <Grid x:Name="GlyphPanel" Grid.Column="0" Visibility="Collapsed" Margin="5,0,-5,0" VerticalAlignment="Center">
-                    <TextBlock FontFamily="Marlett" Text="a" VerticalAlignment="Center" Style="{DynamicResource BaseTextBlockStyle}" />
+                    <TextBlock FontFamily="{DynamicResource SpecialFontFamily}" Text="a" VerticalAlignment="Center" Style="{DynamicResource BaseTextBlockStyle}" />
                 </Grid>
                 <TextBlock VerticalAlignment="Center" Grid.Column="1" Margin="5,0,5,0" Padding="5" Style="{DynamicResource BaseTextBlockStyle}"
                            Foreground="{TemplateBinding Foreground}">

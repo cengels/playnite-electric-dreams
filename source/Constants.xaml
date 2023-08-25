@@ -43,10 +43,12 @@
     <sys:Double x:Key="FontSizeSmall">12</sys:Double>
     <sys:Double x:Key="FontSize">14</sys:Double>
     <sys:Double x:Key="FontSizeLarge">15</sys:Double>
-    <sys:Double x:Key="FontSizeLarger">20</sys:Double>
+    <sys:Double x:Key="FontSizeLarger">17</sys:Double>
     <sys:Double x:Key="FontSizeLargest">29</sys:Double>
     <sys:Double x:Key="DetailsViewOverviewHeaderButtonsOpacity">1.0</sys:Double>
-    <FontFamily x:Key="FontFamily">Trebuchet MS</FontFamily>
+    <FontFamily x:Key="FontFamily">Calibri</FontFamily>
+    <FontFamily x:Key="HeaderFontFamily">Motiva Sans</FontFamily>
+    <FontFamily x:Key="SpecialFontFamily">Marlett</FontFamily>
     <FontFamily x:Key="MonospaceFontFamily">Consolas</FontFamily>
     <Thickness x:Key="PopupBorderThickness">0</Thickness>
     <Thickness x:Key="ControlBorderThickness">0</Thickness>
@@ -73,52 +75,52 @@
 
     <Color x:Key="BlackColor">#FF000000</Color>
     <Color x:Key="WhiteColor">#f5f5f5</Color>
-    <Color x:Key="TextColor">#dfe3e6</Color>
-    <Color x:Key="TextColorDarker">#a3a3a3</Color>
+    <Color x:Key="TextColor">#c4c1e6</Color>
+    <Color x:Key="TextColorDarker">#9694a1</Color>
     <Color x:Key="TextColorDark">#FF000000</Color>
-    <Color x:Key="MainColor">#2C3A67</Color>
-    <Color x:Key="MainColorDark">#0D1225</Color>
-    <Color x:Key="HoverColor">#247BA0</Color>
-    <Color x:Key="GlyphColor">#26b7ff</Color>
-    <Color x:Key="GlyphSubColor">#1E92FF</Color>
-    <Color x:Key="HighlightGlyphColor">#8855CDFF</Color>
-    <Color x:Key="PopupBackgroundColor">#171e26</Color>
-    <Color x:Key="PopupBorderColor">#3e6184</Color>
-    <Color x:Key="BackgroundToneColor">#2C3A67</Color>
-    <Color x:Key="GridItemBackgroundColor">#3D4450</Color>
-    <Color x:Key="PanelSeparatorColor">#16181A</Color>
+    <Color x:Key="MainColor">#302c67</Color>
+    <Color x:Key="MainColorDark">#0e0d25</Color>
+    <Color x:Key="HoverColor">#5e42bd</Color>
+    <Color x:Key="GlyphColor">#817ffa</Color>
+    <Color x:Key="GlyphSubColor">#7050f2</Color>
+    <Color x:Key="HighlightGlyphColor">#886955ff</Color>
+    <Color x:Key="PopupBackgroundColor">#191726</Color>
+    <Color x:Key="PopupBorderColor">#463e84</Color>
+    <Color x:Key="BackgroundToneColor">#302c67</Color>
+    <Color x:Key="GridItemBackgroundColor">#342d57</Color>
+    <Color x:Key="PanelSeparatorColor">Transparent</Color>
     <Color x:Key="WindowPanelSeparatorColor">Transparent</Color>
     <Color x:Key="DataChangeNotifColor">#ffa500</Color>
 
     <!--region Custom theme colors-->
-    <Color x:Key="ControlBackgroundColor">#3e4047</Color>
-    <Color x:Key="ControlBackgroundColorDarker">#25272d</Color>
-    <Color x:Key="ControlBackgroundColorDark">#99212124</Color>
-    <Color x:Key="ControlBackgroundColorDarkHover">#3e4047</Color>
+    <Color x:Key="ControlBackgroundColor">#2e2a52</Color>
+    <Color x:Key="ControlBackgroundColorDarker">#1d1b2b</Color>
+    <Color x:Key="ControlBackgroundColorDark">#99121224</Color>
+    <Color x:Key="ControlBackgroundColorDarkHover">#2e2a52</Color>
     <Color x:Key="ToggleButtonNotCheckedBorderColor">#6f6d70</Color>
     <!--region Custom theme colors-->
 
     <!--region Default Controls background brushes-->
 
     <LinearGradientBrush x:Key="ButtonBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#399AEC" Offset="0"/>
-        <GradientStop Color="#2A71D8" Offset="0.75"/>
-        <GradientStop Color="#235ECF" Offset="1"/>
+        <GradientStop Color="#4e39ec" Offset="0"/>
+        <GradientStop Color="#3b2ad8" Offset="0.75"/>
+        <GradientStop Color="#3d23cf" Offset="1"/>
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="ButtonIsMouseOverBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#47BDFE" Offset="0"/>
-        <GradientStop Color="#3794EA" Offset="0.75"/>
-        <GradientStop Color="#3081E0" Offset="1"/>
+        <GradientStop Color="#6247fe" Offset="0"/>
+        <GradientStop Color="#5237ea" Offset="0.75"/>
+        <GradientStop Color="#4730e0" Offset="1"/>
     </LinearGradientBrush>
     
     <SolidColorBrush x:Key="LibraryDetailsViewNotInstalledForegroundBrush" Color="#a3aab9" />
-    <SolidColorBrush x:Key="LibraryDetailsViewIsLaunchingForegroundBrush" Color="#26b7ff" />
+    <SolidColorBrush x:Key="LibraryDetailsViewIsLaunchingForegroundBrush" Color="#817ffa" />
     <SolidColorBrush x:Key="LibraryDetailsViewIsRunningForegroundBrush" Color="#adff2f" />
-    <SolidColorBrush x:Key="PlayersCountDetailsViewForegroundBrush" Color="#99ffffff" />
+    <SolidColorBrush x:Key="PlayersCountDetailsViewForegroundBrush" Color="#99c9c1f5" />
     <SolidColorBrush x:Key="PlayersCountGridViewForegroundBrush" Color="#7cc53f" />
 
-    <SolidColorBrush x:Key="DetailsViewBannerPanelBorderBrush" Color="#4Dffffff" />
+    <SolidColorBrush x:Key="DetailsViewBannerPanelBorderBrush" Color="#4Dc9c1f5" />
     <SolidColorBrush x:Key="DetailsViewBannerPanelBackgroundBrush" Color="#4D000000" />
 
     <SolidColorBrush x:Key="GridViewItemMaskBackgroundBrush" Color="#1e1e1e" />
@@ -136,14 +138,14 @@
     <SolidColorBrush x:Key="ListBoxBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDark}" />
     <SolidColorBrush x:Key="PasswordBoxBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDark}" />
     <SolidColorBrush x:Key="PasswordBoxIsSelectedBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDarkHover}" />
-    <SolidColorBrush x:Key="ProgressBarBackgroundBrush" Color="#212124" />
+    <SolidColorBrush x:Key="ProgressBarBackgroundBrush" Color="#121224" />
     <SolidColorBrush x:Key="RadioButtonBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDark}" />
     <SolidColorBrush x:Key="RepeatButtonBackgroundBrush" Color="Red" />
     <SolidColorBrush x:Key="RichTextBoxBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDark}" />
     <SolidColorBrush x:Key="ScrollViewerBackgroundBrush" Color="Red" />
     <SolidColorBrush x:Key="SliderBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDark}" />
     <SolidColorBrush x:Key="TabControlBackgroundBrush" Color="Transparent" />
-    <SolidColorBrush x:Key="TabControlSeparatorBrush" Color="#5555CDFF" />
+    <SolidColorBrush x:Key="TabControlSeparatorBrush" Color="#556955ff" />
     <SolidColorBrush x:Key="TextBlockBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDark}" />
     <SolidColorBrush x:Key="TextBoxBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDark}" />
     <SolidColorBrush x:Key="TextBoxIsMouseOverBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDarkHover}" />
@@ -164,32 +166,32 @@
     <!--region Custom Controls background brushes-->
     <SolidColorBrush x:Key="ComboBoxListBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDark}" />
     <LinearGradientBrush x:Key="ExpanderExBackgroundBrush" StartPoint="0, 0.5" EndPoint="1.0, 0.5" >
-        <GradientStop Color="#292f3b" Offset="0.4"/>
-        <GradientStop Color="#262b34" Offset="0.75"/>
-        <GradientStop Color="#24282f" Offset="1.0"/>
+        <GradientStop Color="#352b5c" Offset="0.4"/>
+        <GradientStop Color="#33285c" Offset="0.75"/>
+        <GradientStop Color="#28224a" Offset="1.0"/>
     </LinearGradientBrush>
-    <SolidColorBrush x:Key="ExpanderExIsMouseOverBackgroundBrush" Color="#3E4E69" />
+    <SolidColorBrush x:Key="ExpanderExIsMouseOverBackgroundBrush" Color="#52449e" />
 
-    <SolidColorBrush x:Key="DetailsViewOverviewHeaderLabelBrush" Color="#ffffff" />
-    <SolidColorBrush x:Key="DetailsViewOverviewHeaderTextBlockBrush" Color="#ffffff" />
-    <Color x:Key="DetailsViewContainerLabelColor">#808486</Color>
+    <SolidColorBrush x:Key="DetailsViewOverviewHeaderLabelBrush" Color="#c9c1f5" />
+    <SolidColorBrush x:Key="DetailsViewOverviewHeaderTextBlockBrush" Color="#c9c1f5" />
+    <Color x:Key="DetailsViewContainerLabelColor">#777785</Color>
     <SolidColorBrush x:Key="DetailsViewContainerLabelBrush" Color="{DynamicResource DetailsViewContainerLabelColor}" />
-    <SolidColorBrush x:Key="DetailsViewContainerTextBrush" Color="#d3d3d3" />
-    <SolidColorBrush x:Key="DetailsViewLinksTextBrush" Color="#52dedede" />
-    <SolidColorBrush x:Key="DetailsViewOverviewHeaderButtonsBrush" Color="#DBd3d8e0" />
+    <SolidColorBrush x:Key="DetailsViewContainerTextBrush" Color="#c4c1e6" />
+    <SolidColorBrush x:Key="DetailsViewLinksTextBrush" Color="#52c4c1e6" />
+    <SolidColorBrush x:Key="DetailsViewOverviewHeaderButtonsBrush" Color="#DB9184db" />
     
     
-    <SolidColorBrush x:Key="DetailsViewHeaderIconsFillBrush" Color="#969696" />
+    <SolidColorBrush x:Key="DetailsViewHeaderIconsFillBrush" Color="#797491" />
     
     
-    <SolidColorBrush x:Key="DetailsViewItemIsSelectedBackgroundBrush" Color="#3E4E69" />
-    <SolidColorBrush x:Key="DetailsViewItemIsMouseOverBackgroundBrush" Color="#323A4B" />
-    <SolidColorBrush x:Key="DetailsViewItemIsMouseOverInstalledBackgroundBrush" Color="#586F96" />
+    <SolidColorBrush x:Key="DetailsViewItemIsSelectedBackgroundBrush" Color="#52449e" />
+    <SolidColorBrush x:Key="DetailsViewItemIsMouseOverBackgroundBrush" Color="#3a2f73" />
+    <SolidColorBrush x:Key="DetailsViewItemIsMouseOverInstalledBackgroundBrush" Color="#3a2f73" />
     <SolidColorBrush x:Key="ListViewHeaderBackgroundBrush" Color="{DynamicResource ControlBackgroundColor}" />
-    <SolidColorBrush x:Key="TopPanelBackgroundBrush" Color="#2C3137" />
-    <SolidColorBrush x:Key="TopPanelBackgroundBrush1" Color="#434953" />
-    <SolidColorBrush x:Key="TopPanelBackgroundBrush2" Color="#434953" />
-    <SolidColorBrush x:Key="TopPanelBackgroundBrush3" Color="#434953" />
+    <SolidColorBrush x:Key="TopPanelBackgroundBrush" Color="#211c3b" />
+    <SolidColorBrush x:Key="TopPanelBackgroundBrush1" Color="#312c52" />
+    <SolidColorBrush x:Key="TopPanelBackgroundBrush2" Color="#312c52" />
+    <SolidColorBrush x:Key="TopPanelBackgroundBrush3" Color="#312c52" />
 
     <SolidColorBrush x:Key="ExtendedListBoxBackgroundBrush" Color="Transparent" />
     <SolidColorBrush x:Key="FilterSelectionBoxBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDark}" />
@@ -205,17 +207,17 @@
     <SolidColorBrush x:Key="TopPanelItemIsMouseOverBackgroundBrush" Color="{DynamicResource ControlBackgroundColorDarkHover}" />
     <SolidColorBrush x:Key="TrayContextMenuBackgroundBrushBak" Color="Green" />
     <LinearGradientBrush x:Key="TrayContextMenuBackgroundBrush1" StartPoint="0.5, 0.0" EndPoint="0.5, 1.0" >
-        <GradientStop Color="#1E1F24" Offset="0"/>
-        <GradientStop Color="#1E1F24" Offset="0.5"/>
-        <GradientStop Color="#1E1F24" Offset="1"/>
+        <GradientStop Color="#1f1f3d" Offset="0"/>
+        <GradientStop Color="#1f1f3d" Offset="0.5"/>
+        <GradientStop Color="#1f1f3d" Offset="1"/>
     </LinearGradientBrush>
     
     <RadialGradientBrush x:Key="PopupBackgroundBrush" GradientOrigin="0.5,0.0" Center="0.5,0.0"
         RadiusX="1" RadiusY="1">
         <RadialGradientBrush.GradientStops>
-            <GradientStop Color="#3c4047" Offset="0.0" />
-            <GradientStop Color="#3c4047" Offset="0.5" />
-            <GradientStop Color="#33363d" Offset="1.0" />
+            <GradientStop Color="#353161" Offset="0.0" />
+            <GradientStop Color="#353161" Offset="0.5" />
+            <GradientStop Color="#2e2a54" Offset="1.0" />
         </RadialGradientBrush.GradientStops>
     </RadialGradientBrush>
     
@@ -228,27 +230,27 @@
     <!--region end-->
 
     <!--region Foreground-->
-    <SolidColorBrush x:Key="TopPanelItemForegroundBrush" Color="#4C4D50" />
-    <SolidColorBrush x:Key="TopPanelItemIsMouseOverForegroundBrush" Color="#ffffff" />
+    <SolidColorBrush x:Key="TopPanelItemForegroundBrush" Color="#3a3970" />
+    <SolidColorBrush x:Key="TopPanelItemIsMouseOverForegroundBrush" Color="#c9c1f5" />
     <!--region end-->
 
     <SolidColorBrush x:Key="ControlBackgroundBrush" Color="Transparent" />
     <SolidColorBrush x:Key="TextBrush" Color="{DynamicResource TextColor}" />
     <SolidColorBrush x:Key="TextBrushDarker" Color="{DynamicResource TextColorDarker}" />
     <SolidColorBrush x:Key="TextBrushDark" Color="{DynamicResource TextColorDark}" />
-    <SolidColorBrush x:Key="NormalBrush" Color="#5555CDFF" />
+    <SolidColorBrush x:Key="NormalBrush" Color="#556955ff" />
     <SolidColorBrush x:Key="NormalBrushDark" Color="{DynamicResource ControlBackgroundColor}" />
     <SolidColorBrush x:Key="NormalBorderBrush" Color="Transparent" />
     <SolidColorBrush x:Key="HoverBrush1" Color="{DynamicResource HighlightGlyphColor}" />
     <LinearGradientBrush x:Key="HoverBrush" StartPoint="0.0, 0.5" EndPoint="1.0, 0.5" >
-        <GradientStop Color="#5A6069" Offset="0"/>
-        <GradientStop Color="#50555D" Offset="0.5"/>
-        <GradientStop Color="#50555D" Offset="1"/>
+        <GradientStop Color="#51506e" Offset="0"/>
+        <GradientStop Color="#414054" Offset="0.5"/>
+        <GradientStop Color="#414054" Offset="1"/>
     </LinearGradientBrush>
     <LinearGradientBrush x:Key="MenusHoverBrush" StartPoint="0.0, 0.5" EndPoint="1.0, 0.5" >
-        <GradientStop Color="#3B5C72" Offset="0"/>
-        <GradientStop Color="#3B5670" Offset="0.5"/>
-        <GradientStop Color="#374C6A" Offset="1"/>
+        <GradientStop Color="#433b72" Offset="0"/>
+        <GradientStop Color="#463b70" Offset="0.5"/>
+        <GradientStop Color="#3f376a" Offset="1"/>
     </LinearGradientBrush>
 
     <SolidColorBrush x:Key="ToggleButtonNotCheckedBorderBrush" Color="{DynamicResource ToggleButtonNotCheckedBorderColor}" />
@@ -257,12 +259,12 @@
     <SolidColorBrush x:Key="PopupBorderBrush" Color="{DynamicResource PopupBorderColor}" />
     <SolidColorBrush x:Key="TooltipBackgroundBrush" Color="{DynamicResource BackgroundToneColor}" />
 
-    <SolidColorBrush x:Key="GroupCountBackgroundBrush" Color="#41464F" />
+    <SolidColorBrush x:Key="GroupCountBackgroundBrush" Color="#3d3957" />
     
     <LinearGradientBrush x:Key="GridItemBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#049BC3" Offset="0"/>
-        <GradientStop Color="#217BBB" Offset="0.5"/>
-        <GradientStop Color="#2E52B5" Offset="1"/>
+        <GradientStop Color="#4404c3" Offset="0"/>
+        <GradientStop Color="#4221bb" Offset="0.5"/>
+        <GradientStop Color="#452eb5" Offset="1"/>
     </LinearGradientBrush>
     <SolidColorBrush x:Key="PanelSeparatorBrush" Color="{DynamicResource PanelSeparatorColor}" />
     <SolidColorBrush x:Key="WindowPanelSeparatorBrush" Color="{DynamicResource WindowPanelSeparatorColor}" />
@@ -274,97 +276,84 @@
 
     <SolidColorBrush x:Key="WarningBrush" Color="#ff6b6b" />
 
-    <SolidColorBrush x:Key="WindowBarButtonForegroundBrush" Color="#778991" />
+    <SolidColorBrush x:Key="WindowBarButtonForegroundBrush" Color="#6b688f" />
 
     <LinearGradientBrush x:Key="WindowBackgourndBrush1" StartPoint="0.5,-0.2" EndPoint="0.4,1" >
-        <GradientStop Color="#282D35" Offset="0"/>
-        <GradientStop Color="#282D35" Offset="0.4"/>
+        <GradientStop Color="#292835" Offset="0"/>
+        <GradientStop Color="#292835" Offset="0.4"/>
     </LinearGradientBrush>
 
-    <RadialGradientBrush x:Key="WindowBackgourndBrush" GradientOrigin="0.57,0.37" Center="0.5,0.5"
-        RadiusX="1" RadiusY="1">
-        <RadialGradientBrush.GradientStops>
-            <GradientStop Color="#2c323d" Offset="0.0" />
-            <GradientStop Color="#151616" Offset="1.0" />
-        </RadialGradientBrush.GradientStops>
-    </RadialGradientBrush>
-
-    <RadialGradientBrush x:Key="StandardWindowBackgroundBrush" GradientOrigin="0.0,0.0" Center="0.0,0.0"
-        RadiusX="1" RadiusY="1">
-        <RadialGradientBrush.GradientStops>
-            <GradientStop Color="#32373F" Offset="-0.1" />
-            <GradientStop Color="#25282E" Offset="1.1" />
-        </RadialGradientBrush.GradientStops>
-    </RadialGradientBrush>
+    <SolidColorBrush x:Key="WindowBackgourndBrush" Color="#251e40" />
+    <SolidColorBrush x:Key="StandardWindowBackgroundBrush" Color="#261f40" />
 
     <LinearGradientBrush x:Key="StandardWindowBorderBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#00ccff" Offset="0"/>
-        <GradientStop Color="#3366ff" Offset="1"/>
+        <GradientStop Color="#4800ff" Offset="0"/>
+        <GradientStop Color="#7433ff" Offset="1"/>
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="ProgressBarBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#2E52B5" Offset="0"/>
-        <GradientStop Color="#217BBB" Offset="0.5"/>
-        <GradientStop Color="#049BC3" Offset="1"/>
+        <GradientStop Color="#452eb5" Offset="0"/>
+        <GradientStop Color="#4221bb" Offset="0.5"/>
+        <GradientStop Color="#4404c3" Offset="1"/>
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="ControlsIconsGlyphBrush" MappingMode="RelativeToBoundingBox" StartPoint="0.0, 0.0" EndPoint="1.0, 1.0" >
-        <GradientStop Color="#00CCFF" Offset="0"/>
-        <GradientStop Color="#2D73FF" Offset="1"/>
+        <GradientStop Color="#4800ff" Offset="0"/>
+        <GradientStop Color="#745cfa" Offset="1"/>
     </LinearGradientBrush>
     
-    <Color x:Key="PlayButtonBackgroundColor1">#4FC82F</Color>
-    <Color x:Key="PlayButtonBackgroundColor2">#2BB943</Color>
-    <Color x:Key="PlayButtonBackgroundColor3">#18B14E</Color>
+    <Color x:Key="PlayButtonBackgroundColor1">#462fc8</Color>
+    <Color x:Key="PlayButtonBackgroundColor2">#4a2bb9</Color>
+    <Color x:Key="PlayButtonBackgroundColor3">#4618b1</Color>
     <LinearGradientBrush x:Key="PlayButtonBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
         <GradientStop Color="{DynamicResource PlayButtonBackgroundColor1}" Offset="0"/>
         <GradientStop Color="{DynamicResource PlayButtonBackgroundColor2}" Offset="0.75"/>
         <GradientStop Color="{DynamicResource PlayButtonBackgroundColor3}" Offset="1"/>
     </LinearGradientBrush>
 
-    <Color x:Key="PlayButtonIsMouseOverBackgroundColor1">#6FD51D</Color>
-    <Color x:Key="PlayButtonIsMouseOverBackgroundColor2">#4AC632</Color>
-    <Color x:Key="PlayButtonIsMouseOverBackgroundColor3">#38BE3C</Color>
+    <Color x:Key="PlayButtonIsMouseOverBackgroundColor1">#511dd5</Color>
+    <Color x:Key="PlayButtonIsMouseOverBackgroundColor2">#5532c6</Color>
+    <Color x:Key="PlayButtonIsMouseOverBackgroundColor3">#5738be</Color>
     <LinearGradientBrush x:Key="PlayButtonIsMouseOverBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
         <GradientStop Color="{DynamicResource PlayButtonIsMouseOverBackgroundColor1}" Offset="0"/>
         <GradientStop Color="{DynamicResource PlayButtonIsMouseOverBackgroundColor2}" Offset="0.75"/>
         <GradientStop Color="{DynamicResource PlayButtonIsMouseOverBackgroundColor3}" Offset="1"/>
     </LinearGradientBrush>
 
-    <SolidColorBrush x:Key="MoreButtonInstalledBackgroundBrush" Color="#18B14E" />
+    <SolidColorBrush x:Key="MoreButtonInstalledBackgroundBrush" Color="#4618b1" />
     <LinearGradientBrush x:Key="MoreButtonInstalledIsMouseOverBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#6BD41F" Offset="0"/>
-        <GradientStop Color="#52C92D" Offset="0.50"/>
-        <GradientStop Color="#38BE3C" Offset="1"/>
+        <GradientStop Color="#461fd4" Offset="0"/>
+        <GradientStop Color="#4f2dc9" Offset="0.50"/>
+        <GradientStop Color="#5738be" Offset="1"/>
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="ContextButtonBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#399AEC" Offset="0"/>
-        <GradientStop Color="#2A71D8" Offset="0.75"/>
-        <GradientStop Color="#235ECF" Offset="1"/>
+        <GradientStop Color="#4e39ec" Offset="0"/>
+        <GradientStop Color="#3b2ad8" Offset="0.75"/>
+        <GradientStop Color="#3d23cf" Offset="1"/>
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="ContextButtonIsMouseOverBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#47BDFE" Offset="0"/>
-        <GradientStop Color="#3794EA" Offset="0.75"/>
-        <GradientStop Color="#3081E0" Offset="1"/>
+        <GradientStop Color="#6247fe" Offset="0"/>
+        <GradientStop Color="#5237ea" Offset="0.75"/>
+        <GradientStop Color="#4730e0" Offset="1"/>
     </LinearGradientBrush>
 
-    <SolidColorBrush x:Key="MoreButtonNotInstalledBackgroundBrush" Color="#235ECF" />
+    <SolidColorBrush x:Key="MoreButtonNotInstalledBackgroundBrush" Color="#3d23cf" />
     <LinearGradientBrush x:Key="MoreButtonNotInstalledIsMouseOverBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#48b8fb" Offset="0"/>
-        <GradientStop Color="#3a9eee" Offset="0.50"/>
-        <GradientStop Color="#3287e3" Offset="1"/>
+        <GradientStop Color="#5448fb" Offset="0"/>
+        <GradientStop Color="#4f3aee" Offset="0.50"/>
+        <GradientStop Color="#5032e3" Offset="1"/>
     </LinearGradientBrush>
 
-    <SolidColorBrush x:Key="LibraryDetailsViewBackgroundBrush" Color="#24282f" />
-    <SolidColorBrush x:Key="FilterPanelViewBackgroundBrush" Color="#434953" />
+    <SolidColorBrush x:Key="LibraryDetailsViewBackgroundBrush" Color="#1c1833" />
+    <SolidColorBrush x:Key="FilterPanelViewBackgroundBrush" Color="#312c52" />
 
     
     <LinearGradientBrush x:Key="MenuBackgroundBrush" StartPoint="0.0, 0.0" EndPoint="1.0, 0.0" >
-        <GradientStop Color="#585A5C" Offset="0"/>
-        <GradientStop Color="#585A5C" Offset="0.5"/>
-        <GradientStop Color="#686868" Offset="1"/>
+        <GradientStop Color="#424152" Offset="0"/>
+        <GradientStop Color="#424152" Offset="0.5"/>
+        <GradientStop Color="#524e5e" Offset="1"/>
     </LinearGradientBrush>
 
     <SolidColorBrush x:Key="GameInfoContainerBackgroundBrush" Color="#000000" Opacity="0.2"/>
@@ -372,56 +361,56 @@
     <!--region Details View Backgrounds brushes-->
     <LinearGradientBrush x:Key="DetailsSectionBackgroundBrush" StartPoint="0.5, 1.0" EndPoint="0.5, 0.0" >
         <GradientStop Color="Transparent" Offset="0"/>
-        <GradientStop Color="#0024282f" Offset="0.1"/>
-        <GradientStop Color="#332b3942" Offset="0.98"/>
-        <GradientStop Color="#1ac1cacf" Offset="0.99"/>
+        <GradientStop Color="#001c1833" Offset="0.1"/>
+        <GradientStop Color="#332b2b42" Offset="0.98"/>
+        <GradientStop Color="#1ac2c1cf" Offset="0.99"/>
         <GradientStop Color="#4d1d1d1d" Offset="1"/>
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="BackdropGlass1" StartPoint="0.5, 0.0" EndPoint="0.5, 1.0" >
-        <GradientStop Color="#1a272c35" Offset="0.0"/>
-        <GradientStop Color="#B3272c35" Offset="1.0"/>
+        <GradientStop Color="#1a212036" Offset="0.0"/>
+        <GradientStop Color="#B3212036" Offset="1.0"/>
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="BackdropGlass2" StartPoint="0.5, 0.0" EndPoint="0.5, 1.0" >
-        <GradientStop Color="#B3272c35" Offset="0"/>
-        <GradientStop Color="#4D272c35" Offset="0.64"/>
-        <GradientStop Color="#00272c35" Offset="1"/>
+        <GradientStop Color="#B3212036" Offset="0"/>
+        <GradientStop Color="#4D212036" Offset="0.64"/>
+        <GradientStop Color="#00212036" Offset="1"/>
     </LinearGradientBrush>
 
     <RadialGradientBrush x:Key="LinksContainerBackgroundBrush" Center="0.64, 0.95"
         RadiusX="1" RadiusY="0.8">
         <RadialGradientBrush.GradientStops>
-            <GradientStop Color="#1A6c7786" Offset="0.4" />
-            <GradientStop Color="#1A536868" Offset="1.0" />
+            <GradientStop Color="#1A574f80" Offset="0.4" />
+            <GradientStop Color="#1A403d61" Offset="1.0" />
         </RadialGradientBrush.GradientStops>
     </RadialGradientBrush>
     
     <RadialGradientBrush x:Key="SectionContainerBackgroundBrush" GradientOrigin="0.64,0.95" Center="1.0, 0.8"
         RadiusX="1" RadiusY="1">
         <RadialGradientBrush.GradientStops>
-            <GradientStop Color="#4d99aecc" Offset="0.0" />
-            <GradientStop Color="#217d96b8" Offset="0.4" />
-            <GradientStop Color="#1a536868" Offset="1.0" />
+            <GradientStop Color="#4d9b99cc" Offset="0.0" />
+            <GradientStop Color="#217f7db8" Offset="0.4" />
+            <GradientStop Color="#1a403d61" Offset="1.0" />
         </RadialGradientBrush.GradientStops>
     </RadialGradientBrush>
 
     <RadialGradientBrush x:Key="SectionContainerMainBackgroundBrush" GradientOrigin="0.64,0.95" Center="1.0, 0.8"
         RadiusX="1" RadiusY="1">
         <RadialGradientBrush.GradientStops>
-            <GradientStop Color="#4d6b737f" Offset="0.0" />
-            <GradientStop Color="#803e4650" Offset="0.2" />
-            <GradientStop Color="#8024282f" Offset="1.0" />
+            <GradientStop Color="#4d6d6b7f" Offset="0.0" />
+            <GradientStop Color="#80403e50" Offset="0.2" />
+            <GradientStop Color="#801c1833" Offset="1.0" />
         </RadialGradientBrush.GradientStops>
     </RadialGradientBrush>
 
     <RadialGradientBrush x:Key="SectionContainerBorderBrush" GradientOrigin="0.64,0.95" Center="1.0, 0.8"
         RadiusX="1" RadiusY="1">
         <RadialGradientBrush.GradientStops>
-            <GradientStop Color="#26445566" Offset="-0.1" />
+            <GradientStop Color="#26484466" Offset="-0.1" />
             <GradientStop Color="#14ebebfe" Offset="0.4" />
             <GradientStop Color="#26e5e5ff" Offset="0.85" />
-            <GradientStop Color="#1a415e7f" Offset="1.1" />
+            <GradientStop Color="#1a45417f" Offset="1.1" />
         </RadialGradientBrush.GradientStops>
     </RadialGradientBrush>
     
@@ -432,7 +421,7 @@
     <SolidColorBrush x:Key="OpaqueGrayHighlightBrush" Color="#4c919191" />
     
     <SolidColorBrush x:Key="GridViewCoverSubtitleBrush" Color="#b7b7b7" />
-    <SolidColorBrush x:Key="GridViewCoverSubtitleBackgroundBrush" Color="#3d4450" />
+    <SolidColorBrush x:Key="GridViewCoverSubtitleBackgroundBrush" Color="#342d57" />
 
     <!-- Noise Brush obtained from https://github.com/felixkmh/StartPage-for-Playnite/-->
     <ImageBrush x:Key="DarkNoiseBrush" ImageSource="{ThemeFile 'Images/dark_noise.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute"

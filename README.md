@@ -1,77 +1,23 @@
-![DownloadCount](https://img.shields.io/github/downloads/darklinkpower/Helium/total.svg)
-# Helium
-Theme inspired by Steam for [Playnite](https://github.com/JosefNemec/Playnite) Desktop Mode.
+# Electric Dreams
 
-## Tips and donations
-All the work I do for Playnite extensions is and will always be free!
+A theme for Playnite, based on the
+[Helium](https://github.com/darklinkpower/Helium) theme by darklinkpower.
 
-I make extensions and themes to learn, have fun and to give to the community so donations are not required or requested. If you find the work being done useful and you are and in a position that allows it, you can consider making a tip to support the different Playnite related projects I work on, every little bit helps.
+## How do I download it?
 
-<a href='https://ko-fi.com/darklinkpower' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+This theme has deliberately not been added to the Playnite plugin library. It's
+a personal theme, which means I made it for me and me only.
 
-## Support
+You're more than welcome to clone the repository and add it to your
+`%APPDATA%/Playnite/Themes/Desktop` folder, which will automatically make it
+available in Playnite itself, but there will be:
 
-- If you found a bug or want to request a feature, please open a new issue in the [Issues Tracker](https://github.com/darklinkpower/Helium/issues)
-- For general support, please contact me in the channel dedicated to themes support in the [Playnite Discord](https://discord.com/channels/365863063296933888/808419347105447957)
+* no consistent updates to this theme
+* no support for bugs or other issues
+* no feature requests
 
-## Theme goals
-- Use the Steam client as inspiration to create a polished Playnite UI.
-- Achieve a more modern and clean design with the chosen pallete and things like rounded corners in certain elements like the windows, borders, buttons and controls.
-- Improve the user experience with small animations in certain parts.
-- Change the aesthetic without affecting functionality.
-- Polish certain parts of the UI to give a better user experience.
-- Different aesthetic of other available themes available by default in Playnite and created by the community.
-- Achieve features that are not available by default on Playnite via community extensions
+For instance, I primarily use the Details view, so the Grid/List views may be
+somewhat neglected and have inferior design/user experience as a result.
 
-## Installation
-Option A: Click the `Download` button in the [addon database entry here](https://playnite.link/addons.html#8b15c46a-90c2-4fe5-9ebb-1ab25ba7fcb1) to start the install process.
-
-Option B: Download the latest packaged `pthm` theme file from the [Releases page](https://github.com/darklinkpower/Helium/releases/latest) and open it.
-
-Option C: Download from the Addons browser in Playnite.
-
-
-## Extensions support
-The theme provides extensive support for a wide range of available Playnite extensions, enhancing its functionality even further.
-
-- **Achievements:** [SuccessStory](https://playnite.link/addons.html#playnite-successstory-plugin) extension.
-- **Alternative background images:** [BackgroundChanger](https://playnite.link/addons.html#playnite-backgroundchanger-plugin) extension.
-- **Duplicate copies handling:** [DuplicateHider](https://playnite.link/addons.html#felixkmh_DuplicateHider_Plugin) extension.
-- **Features icons:** [Library Management](https://playnite.link/addons.html#playnite-librarymanagement-plugin) extension.
-- **Game cover banners and other functionality:** [ThemeExtras](https://playnite.link/addons.html#felixkmh_Extras_Plugin) extension.
-- **Game statistics:** [GameActivity](https://playnite.link/addons.html#playnite-gameactivity-plugin) extension.
-- **HowLongToBeat data:** [HowLongToBeat](https://playnite.link/addons.html#playnite-howlongtobeat-plugin) extension.
-- **Logos:** [Extra Metadata Loader](https://playnite.link/addons.html#ExtraMetadataLoader_705fdbca-e1fc-4004-b839-1d040b8b4429) extension.
-- **Screenshots:** [ScreenshotsVisualizer](https://playnite.link/addons.html#playnite-screenshotsvisualizer-plugin) extension.
-- **Steam Game news:** [Steam News and Players Viewer](https://playnite.link/addons.html#NewsViewer_15e03ffe-90f6-4e8e-bd4d-94514777481d) extension.
-- **Steam Game reviews:** [Review Viewer](https://playnite.link/addons.html#Review_Viewer_ca24e37a-76d9-49bf-89ab-d3cba4a54bd1) extension.
-- **Steam players online counter:** [Steam News and Players Viewer](https://playnite.link/addons.html#NewsViewer_15e03ffe-90f6-4e8e-bd4d-94514777481d) extension.
-- **Theme customization options:** Customization of certain aspects of the theme can be done via custom integration of the [ThemeModifier](https://playnite.link/addons.html#playnite-thememodifier-plugin) extension.
-- **Videos:** [Extra Metadata Loader](https://playnite.link/addons.html#ExtraMetadataLoader_705fdbca-e1fc-4004-b839-1d040b8b4429) extension.
-
-...and more...
-
-## Screenshots
-
-<details>
-<summary>Settings used in screenshots (Click to expand)</summary>
-
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Helium/master/screenshots/settings_01.jpg)
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Helium/master/screenshots/settings_02.jpg)
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Helium/master/screenshots/settings_03.jpg)
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Helium/master/screenshots/settings_04.jpg)
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Helium/master/screenshots/settings_05.jpg)
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Helium/master/screenshots/settings_06.jpg)
-</details>
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Helium/master/screenshots/screenshot_01.webp)
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Helium/master/screenshots/screenshot_02.webp)
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Helium/master/screenshots/screenshot_03.webp)
+Of course, if you like the theme and would like to change things, feel free to
+create a fork.

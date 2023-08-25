@@ -85,7 +85,7 @@
                                                        Tag="{DynamicResource GridViewEnableCoverShineAnimation}" />
                                 </Grid>
 
-                                <TextBlock Grid.Row="1" Text="&#xF000;" Foreground="#67b3ff"
+                                <TextBlock Grid.Row="1" Text="&#xF000;" Foreground="#8567ff"
                                                     Opacity="0.90" FontSize="16" ClipToBounds="True"
                                                     Margin="8,5,5,5"
                                                     VerticalAlignment="Top"
@@ -284,7 +284,7 @@
 
     <Style x:Key="CoverIsPlayingAnimatedBackground" TargetType="Border">
         <Style.Resources>
-            <Color x:Key="BackgroundColor1">#26ffffff</Color>
+            <Color x:Key="BackgroundColor1">#26c9c1f5</Color>
             <Color x:Key="BackgroundColor2">#00000000</Color>
             <Color x:Key="BackgroundColor3">#99000000</Color>
         </Style.Resources>

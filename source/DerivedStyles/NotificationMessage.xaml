@@ -17,7 +17,7 @@
                             d:DataContext="{x:Static DesignMainViewModel.DesignNotificationIntance}">
                         <DockPanel>
                             <Button DockPanel.Dock="Right" Padding="6,0,6,0"
-                                    Content="r" FontFamily="Marlett"
+                                    Content="r" FontFamily="{DynamicResource SpecialFontFamily}"
                                     VerticalAlignment="Stretch" BorderThickness="0"
                                     Command="{Binding CloseCommand}"/>
                             <TextBlock Text="{Binding Text}"

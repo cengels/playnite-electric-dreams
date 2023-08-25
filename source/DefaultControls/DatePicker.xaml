@@ -19,11 +19,11 @@
                             BorderBrush="{TemplateBinding BorderBrush}">
                         <DockPanel Name="PART_Root" LastChildFill="True" >
                             <Button x:Name="PART_PreviousButton" DockPanel.Dock="Left"
-                                    FontWeight="Bold" FontFamily="Marlett" Padding="4,2,4,2"
+                                    FontWeight="Bold" FontFamily="{DynamicResource SpecialFontFamily}" Padding="4,2,4,2"
                                     Content="3" Focusable="False" BorderThickness="0"
                                     Background="Transparent"/>
                             <Button x:Name="PART_NextButton" DockPanel.Dock="Right"
-                                    FontWeight="Bold" FontFamily="Marlett" Padding="4,2,4,2"
+                                    FontWeight="Bold" FontFamily="{DynamicResource SpecialFontFamily}" Padding="4,2,4,2"
                                     Content="4" BorderThickness="0"
                                     Focusable="False"
                                     Background="Transparent"/>
