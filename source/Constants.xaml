@@ -179,6 +179,9 @@
     <SolidColorBrush x:Key="DetailsViewContainerTextBrush" Color="#c4c1e6" />
     <SolidColorBrush x:Key="DetailsViewLinksTextBrush" Color="#52c4c1e6" />
     <SolidColorBrush x:Key="DetailsViewOverviewHeaderButtonsBrush" Color="#DB9184db" />
+
+    <SolidColorBrush x:Key="Extras_CompletionTextColor" Color="#c4c1e6" />
+    <SolidColorBrush x:Key="Extras_CompletionDropDownArrow" Color="{DynamicResource GlyphColor}" />
     
     
     <SolidColorBrush x:Key="DetailsViewHeaderIconsFillBrush" Color="#797491" />

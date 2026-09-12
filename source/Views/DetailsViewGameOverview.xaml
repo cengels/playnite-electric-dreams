@@ -289,7 +289,7 @@
                                                 <DockPanel x:Name="PART_ElemCompletionStatus" DockPanel.Dock="Left" VerticalAlignment="Center" Margin="20,0,0,0">
                                                     <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0">
                                                         <Label Style="{DynamicResource HeaderLabel}" Content="{DynamicResource LOCCompletionStatus}"/>
-                                                        <Button x:Name="PART_ButtonCompletionStatus" Opacity="1" Margin="0" Style="{DynamicResource PropertyItemButtonNoWrap}" />
+                                                        <ContentControl x:Name="ThemeExtras_CompletionStatusComboBox" Visibility="{Binding CompletionStatusVisibility}" />
                                                     </StackPanel>
                                                 </DockPanel>
 
